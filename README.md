@@ -56,12 +56,13 @@ Chatbot AI này được xây dựng bằng JS, (với React - Redux là các c�
 ### Yêu cầu
 
 ### Hướng dẫn cài đặt
-1. **Clone repository**:
+1. 🗒️**Clone repository**:
    ```bash
    git clone https://github.com/username/ai-chatbot.git
    cd ai-chatbot
 
-## Bản quyền
+2. Change your 🔐 API key in POLICY.js
+## 🔐 Bản quyền
 
 Copyright © 2025 by Kha An. All rights reserved.
 
