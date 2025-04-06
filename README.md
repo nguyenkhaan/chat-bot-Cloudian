@@ -1,12 +1,12 @@
-# AI Chatbot CLOUDIAN
+# 🌧️AI Chatbot CLOUDIAN 🌧️ ☁️ 
 
-## Giới thiệu
+## 🤖 Giới thiệu
 Chatbot AI này được xây dựng bằng JS, (với React - Redux là các công nghệ hỗ trợ). 
 
 Ứng dụng sử dụng Gemini API để cung cấp khả năng trả lời tự động cho các câu hỏi và cung cấp các tính năng tương tác với người dùng như tìm kiếm trên Google và hiển thị emoji.
 
-**Link API**: https://ai.google.dev/
-## Công nghệ sử dụng
+**Link API**: 🔗 https://ai.google.dev/
+## 🤖 Công nghệ sử dụng
 - **Frontend**: HTML, CSS, JavaScript
   - **React**: Được sử dụng để xây dựng giao diện người dùng (UI), giúp việc tạo và quản lý các component dễ dàng hơn.
   - **Redux**: Quản lý trạng thái của ứng dụng, giúp duy trì và đồng bộ hóa dữ liệu giữa các component.
@@ -14,7 +14,7 @@ Chatbot AI này được xây dựng bằng JS, (với React - Redux là các c�
   - **Gemini API**: Được sử dụng để trả lời các câu hỏi tự động của người dùng.
   - **Embeed**: Tích hợp tính năng tìm kiếm thông tin từ Google trực tiếp trong ứng dụng.
 
-## Tính năng
+## 🤖 Tính năng
 - **Hiển thị thông tin cuộc trò chuyện**:
   - Dùng React để tạo và render các component.
   - Redux được sử dụng để quản lý các trạng thái của các tin nhắn trong cuộc trò chuyện.
@@ -30,7 +30,7 @@ Chatbot AI này được xây dựng bằng JS, (với React - Redux là các c�
   - Ứng dụng cung cấp tính năng tìm kiếm trên Google thông qua việc sử dụng tính năng `window.open` của JavaScript ES6.
   - Khi người dùng nhập từ khóa tìm kiếm, một cửa sổ mới sẽ mở ra và hiển thị kết quả tìm kiếm từ Google.
 
-## Cách thức hoạt động
+## 🤖 Cách thức hoạt động
 
 1. **Hiển thị thông tin cuộc trò chuyện**:
    - Các component React sẽ được sử dụng để tạo và render các phần tử của cuộc trò chuyện.
@@ -45,13 +45,13 @@ Chatbot AI này được xây dựng bằng JS, (với React - Redux là các c�
 3. **Hiển thị emoji**:
    - Người dùng có thể chọn emoji từ danh sách có sẵn và gửi emoji trong cuộc trò chuyện.
    - Các emoji sẽ được hiển thị dưới dạng biểu tượng trong phần chat.
-   - **Link Github Emoji**: https://github.com/nolanlawson/emoji-picker-element
+   - 🔗 **Link Github Emoji**: https://github.com/nolanlawson/emoji-picker-element
 
 4. **Tính năng Tìm kiếm Google**:
    - Ứng dụng cung cấp tính năng tìm kiếm trên Google thông qua việc sử dụng tính năng `window.open` của JavaScript ES6.
    - Khi người dùng nhập từ khóa tìm kiếm, một cửa sổ mới sẽ mở ra và hiển thị kết quả tìm kiếm từ Google.
 
-## Cài đặt
+## 🤖 Cài đặt
 
 ### Yêu cầu
 
