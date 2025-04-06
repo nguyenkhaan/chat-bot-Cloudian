@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/base.css"> 
+    <link rel="stylesheet" href="./asset/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"></script>
+
+</head>
+<body>
+    <div class="chat">
+        <div class="chat-header">
+            <div class="chat-header__avatar  icon--format"><i class="fa-solid fa-cloud"></i></div>
+            <h5 class="chat-header__heading">Cloudian</h5>
+        </div>
+        <div class="chat-body">
+            <div class="chat-body__user">
+                <div class="chat-body__message">Hello</div>
+            </div>
+            <div class="chat-body__robot">
+                <div class="chat-body__robot-avatar icon--format"><i class="fa-solid fa-cloud"></i></div>
+                <div class="chat-body__message">Hey there 👋 <br> How can I help you - Cloud</div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <div class="footer__input">
+                <textarea name="" id="" class="chat-footer__input" placeholder="Message..."></textarea>
+                <div class="chat-footer__controls">
+                    <button class="footer__button icon--format emoji">
+                        <i class="fa-solid fa-smile"></i>
+                        <emoji-picker class = "emoji-picker light"></emoji-picker>
+                    </button>
+                    <button class="footer__button icon--format globe"><i class="fa-solid fa-globe"></i></button>
+                    <div class="footer__upload">
+                        <input type="file" id="file-upload" hidden accept="images/*">
+                        <button class="footer__button icon--format attach"><i class="fa-solid fa-paperclip"></i></button>
+                    </div>
+                    <button class="footer__button icon--format submit"><i class="fa-solid fa-arrow-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type = "Module" src="./Module/main.js"></script>
+</body>
+</html>
